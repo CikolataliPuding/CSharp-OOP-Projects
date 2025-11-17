@@ -1,0 +1,17 @@
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\bin\Debug\net8.0-windows\notepad.exe
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\bin\Debug\net8.0-windows\notepad.deps.json
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\bin\Debug\net8.0-windows\notepad.runtimeconfig.json
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\bin\Debug\net8.0-windows\notepad.dll
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\bin\Debug\net8.0-windows\notepad.pdb
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\obj\Debug\net8.0-windows\notepad.Form1.resources
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\obj\Debug\net8.0-windows\notepad.csproj.GenerateResource.cache
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\obj\Debug\net8.0-windows\notepad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\obj\Debug\net8.0-windows\notepad.AssemblyInfoInputs.cache
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\obj\Debug\net8.0-windows\notepad.AssemblyInfo.cs
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\obj\Debug\net8.0-windows\notepad.csproj.CoreCompileInputs.cache
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\obj\Debug\net8.0-windows\notepad.sourcelink.json
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\obj\Debug\net8.0-windows\notepad.dll
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\obj\Debug\net8.0-windows\refint\notepad.dll
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\obj\Debug\net8.0-windows\notepad.pdb
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\obj\Debug\net8.0-windows\notepad.genruntimeconfig.cache
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\notepad\obj\Debug\net8.0-windows\ref\notepad.dll

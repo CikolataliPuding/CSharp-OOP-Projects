@@ -69,3 +69,4 @@ dotnet build
 
 ## Lisans
 - Eğitim amaçlı örnek. Kendi kullanımınıza göre uyarlayabilirsiniz.
+
