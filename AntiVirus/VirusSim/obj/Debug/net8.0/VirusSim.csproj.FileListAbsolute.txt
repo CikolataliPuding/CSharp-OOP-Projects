@@ -1,0 +1,12 @@
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\AntiVirus\VirusSim\bin\Debug\net8.0\VirusSim.deps.json
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\AntiVirus\VirusSim\bin\Debug\net8.0\VirusSim.dll
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\AntiVirus\VirusSim\bin\Debug\net8.0\VirusSim.pdb
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\AntiVirus\VirusSim\obj\Debug\net8.0\VirusSim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\AntiVirus\VirusSim\obj\Debug\net8.0\VirusSim.AssemblyInfoInputs.cache
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\AntiVirus\VirusSim\obj\Debug\net8.0\VirusSim.AssemblyInfo.cs
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\AntiVirus\VirusSim\obj\Debug\net8.0\VirusSim.csproj.CoreCompileInputs.cache
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\AntiVirus\VirusSim\obj\Debug\net8.0\VirusSim.sourcelink.json
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\AntiVirus\VirusSim\obj\Debug\net8.0\VirusSim.dll
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\AntiVirus\VirusSim\obj\Debug\net8.0\refint\VirusSim.dll
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\AntiVirus\VirusSim\obj\Debug\net8.0\VirusSim.pdb
+C:\Users\egeme\Documents\GitHub\esucodes\NTP-PROJELER\AntiVirus\VirusSim\obj\Debug\net8.0\ref\VirusSim.dll

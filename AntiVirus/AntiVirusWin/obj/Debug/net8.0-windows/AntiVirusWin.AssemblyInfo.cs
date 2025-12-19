@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AntiVirusWin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0e78960bc1bee65e2a0a1f44afc68bc39053364")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ff5016bd444f8a045b9018e17d160aa32bbe120")]
 [assembly: System.Reflection.AssemblyProductAttribute("AntiVirusWin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AntiVirusWin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
