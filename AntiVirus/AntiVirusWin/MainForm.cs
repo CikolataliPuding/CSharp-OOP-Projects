@@ -1,10 +1,10 @@
 using System;
 using System.IO;
 using System.Windows.Forms;
+using VirusSim;
 
 namespace AntiVirusWin
 {
-    // OOP Örneği: Form, antivirus tarama için IScanner arayüzünü kullanan bir "istemci" rolünde.
     public partial class MainForm : Form
     {
         private readonly IScanner _scanner;
@@ -12,9 +12,6 @@ namespace AntiVirusWin
         public MainForm()
         {
             InitializeComponent();
-
-            // OOP Örneği: Bağımlılık tersine çevirme (Dependency Injection'in basit hâli).
-            // Arayüz üzerinden konuşuyoruz, somut sınıfa (FileScanner) sıkı sıkıya bağlı değiliz.
             _scanner = new FileScanner(new SimpleSignatureDatabase());
         }
 
@@ -45,12 +42,35 @@ namespace AntiVirusWin
 
             AppendLog($"Dosya taranıyor: {path}");
 
-            // OOP Örneği: IScanner arayüzünü kullanarak polimorfik tarama.
             var result = _scanner.Scan(path);
 
             AppendLog($"Durum: {(result.IsInfected ? "BULAŞIK" : "TEMİZ")}");
             AppendLog($"Detay: {result.Message}");
             AppendLog($"Tespit edilen imza: {result.DetectedSignature ?? "-"}");
+        }
+
+        private void btnCreateTestVirus_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Test dosyası oluştur
+                string testFilePath = Path.Combine(Path.GetTempPath(), "test_dosya.txt");
+                File.WriteAllText(testFilePath, "Bu bir test dosyasıdır.\nNormal içerik burada.\n");
+
+                // Virus simülasyonu ile dosyaya bulaştır
+                var virus = new SimpleFileVirus();
+                virus.Infect(testFilePath);
+
+                // Dosya yolunu textbox'a yaz
+                txtFilePath.Text = testFilePath;
+
+                AppendLog($"✓ Test dosyası oluşturuldu ve virus bulaştırıldı: {testFilePath}");
+                AppendLog($"Şimdi 'Tara' butonuna basarak tarama yapabilirsiniz.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Hata: {ex.Message}", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void AppendLog(string message)
@@ -59,5 +79,6 @@ namespace AntiVirusWin
         }
     }
 }
+
 
 

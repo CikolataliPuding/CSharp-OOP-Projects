@@ -3,7 +3,6 @@ using System.IO;
 namespace VirusSim
 {
     /// <summary>
-    /// OOP Örneği: Tüm zararlı yazılımlar için ortak sözleşme.
     /// </summary>
     public interface IMalware
     {
@@ -12,7 +11,6 @@ namespace VirusSim
     }
 
     /// <summary>
-    /// OOP Örneği: Ortak davranışları tutan temel (base) sınıf.
     /// Diğer virus türleri bu sınıftan kalıtım alabilir.
     /// </summary>
     public abstract class BaseVirus : IMalware
@@ -57,5 +55,6 @@ namespace VirusSim
         }
     }
 }
+
 
 

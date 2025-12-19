@@ -15,6 +15,7 @@ namespace AntiVirusWin
         private TextBox txtLog;
         private Label lblPath;
         private Label lblLog;
+        private Button btnCreateTestVirus;
 
         /// <summary>
         /// Kullanılan tüm kaynakları temizleyin.
@@ -38,6 +39,7 @@ namespace AntiVirusWin
             this.txtLog = new System.Windows.Forms.TextBox();
             this.lblPath = new System.Windows.Forms.Label();
             this.lblLog = new System.Windows.Forms.Label();
+            this.btnCreateTestVirus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtFilePath
@@ -95,11 +97,22 @@ namespace AntiVirusWin
             this.lblLog.TabIndex = 5;
             this.lblLog.Text = "Tarama Logu";
             // 
+            // btnCreateTestVirus
+            // 
+            this.btnCreateTestVirus.Location = new System.Drawing.Point(12, 344);
+            this.btnCreateTestVirus.Name = "btnCreateTestVirus";
+            this.btnCreateTestVirus.Size = new System.Drawing.Size(150, 30);
+            this.btnCreateTestVirus.TabIndex = 6;
+            this.btnCreateTestVirus.Text = "Test Virus Oluştur";
+            this.btnCreateTestVirus.UseVisualStyleBackColor = true;
+            this.btnCreateTestVirus.Click += new System.EventHandler(this.btnCreateTestVirus_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(626, 350);
+            this.ClientSize = new System.Drawing.Size(626, 386);
+            this.Controls.Add(this.btnCreateTestVirus);
             this.Controls.Add(this.lblLog);
             this.Controls.Add(this.lblPath);
             this.Controls.Add(this.txtLog);
@@ -118,5 +131,6 @@ namespace AntiVirusWin
         #endregion
     }
 }
+
 
 
