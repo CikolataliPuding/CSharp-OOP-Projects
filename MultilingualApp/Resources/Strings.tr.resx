@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Çok Dilli Çevirici</value>
+  </data>
+  <data name="PromptSourceLanguage" xml:space="preserve">
+    <value>KAYNAK dili seçin (tr/en/es) ve ENTER'a basın:</value>
+  </data>
+  <data name="PromptTargetLanguage" xml:space="preserve">
+    <value>HEDEF dili seçin (tr/en/es) ve ENTER'a basın:</value>
+  </data>
+  <data name="InvalidLanguage" xml:space="preserve">
+    <value>Bilinmeyen dil, varsayılan olarak İngilizce kullanılıyor.</value>
+  </data>
+  <data name="InfoLanguages" xml:space="preserve">
+    <value>{0} dilinden {1} diline çeviri yapılıyor.</value>
+  </data>
+  <data name="PromptSelectPhrase" xml:space="preserve">
+    <value>Çevrilecek ifadeyi seçin:</value>
+  </data>
+  <data name="PromptPhraseNumber" xml:space="preserve">
+    <value>İfade numarasını girin: </value>
+  </data>
+  <data name="InvalidSelection" xml:space="preserve">
+    <value>Geçersiz seçim.</value>
+  </data>
+  <data name="TranslationResultTitle" xml:space="preserve">
+    <value>Çeviri sonucu</value>
+  </data>
+  <data name="TranslationSource" xml:space="preserve">
+    <value>Kaynak ({0}): {1}</value>
+  </data>
+  <data name="TranslationTarget" xml:space="preserve">
+    <value>Hedef ({0}): {1}</value>
+  </data>
+  <data name="ExitMessage" xml:space="preserve">
+    <value>Çıkmak için ENTER'a basın.</value>
+  </data>
+  <!-- Çevrilebilir ifadeler -->
+  <data name="Phrase_Hello" xml:space="preserve">
+    <value>Merhaba</value>
+  </data>
+  <data name="Phrase_GoodMorning" xml:space="preserve">
+    <value>Günaydın</value>
+  </data>
+  <data name="Phrase_ThankYou" xml:space="preserve">
+    <value>Teşekkür ederim</value>
+  </data>
+  <data name="Phrase_Goodbye" xml:space="preserve">
+    <value>Hoşça kal</value>
+  </data>
+</root>
+
+

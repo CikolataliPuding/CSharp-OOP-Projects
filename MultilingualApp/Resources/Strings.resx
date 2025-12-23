@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Multilingual Translator</value>
+  </data>
+  <data name="PromptSourceLanguage" xml:space="preserve">
+    <value>Choose SOURCE language (tr/en/es) and press ENTER:</value>
+  </data>
+  <data name="PromptTargetLanguage" xml:space="preserve">
+    <value>Choose TARGET language (tr/en/es) and press ENTER:</value>
+  </data>
+  <data name="InvalidLanguage" xml:space="preserve">
+    <value>Unknown language, defaulting to English.</value>
+  </data>
+  <data name="InfoLanguages" xml:space="preserve">
+    <value>Translating from {0} to {1}.</value>
+  </data>
+  <data name="PromptSelectPhrase" xml:space="preserve">
+    <value>Select a phrase to translate:</value>
+  </data>
+  <data name="PromptPhraseNumber" xml:space="preserve">
+    <value>Enter phrase number: </value>
+  </data>
+  <data name="InvalidSelection" xml:space="preserve">
+    <value>Invalid selection.</value>
+  </data>
+  <data name="TranslationResultTitle" xml:space="preserve">
+    <value>Translation result</value>
+  </data>
+  <data name="TranslationSource" xml:space="preserve">
+    <value>Source ({0}): {1}</value>
+  </data>
+  <data name="TranslationTarget" xml:space="preserve">
+    <value>Target ({0}): {1}</value>
+  </data>
+  <data name="ExitMessage" xml:space="preserve">
+    <value>Press ENTER to exit.</value>
+  </data>
+  <!-- Translatable phrases -->
+  <data name="Phrase_Hello" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="Phrase_GoodMorning" xml:space="preserve">
+    <value>Good morning</value>
+  </data>
+  <data name="Phrase_ThankYou" xml:space="preserve">
+    <value>Thank you</value>
+  </data>
+  <data name="Phrase_Goodbye" xml:space="preserve">
+    <value>Goodbye</value>
+  </data>
+</root>
+
+
