@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tesseract" Version="5.2.0" />
+  </ItemGroup>
+
+  <!--
+    tessdata KLASÖRÜ NOTU:
+    - Tesseract, OCR yapabilmek için "traineddata" dosyalarına ihtiyaç duyar.
+    - Bu dosyalar uygulama çalışırken genellikle şu konumda aranır:
+        bin\Debug\net8.0-windows\tessdata\
+    - Bu ayar, proje içindeki "tessdata" klasörünün (altındaki dosyalarla birlikte)
+      build çıktısına otomatik kopyalanmasını sağlar.
+    - Sen sadece gerekli traineddata dosyalarını buraya ekleyeceksin (örn. eng.traineddata).
+  -->
+  <ItemGroup>
+    <Content Include="tessdata\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
